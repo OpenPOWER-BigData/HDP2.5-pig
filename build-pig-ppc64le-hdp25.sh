@@ -1,5 +1,5 @@
 #!/bin/bash
-HADOOP_VERSION="2.7.3-ppc64le"
+HADOOP_VERSION="2.7.3.2.5.0.0-1245"
 cat <<__EOT__ >> ivy/libraries.properties
 hadoop-common.version=$HADOOP_VERSION
 hadoop-hdfs.version=$HADOOP_VERSION
